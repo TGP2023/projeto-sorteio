@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background: #000000;
+    display: flex;
+    /*serve para alinhar e distribuir os elementos em um contêiner de forma flexível*/
+    align-items: center;
+    /* O align-items: center garante que os flex-items dentro de um elemento com display flex vão centralizar (verticalmente e horizontalmente).*/
+    justify-content: center;
+    /*utilizada para alinhar os itens quando não usam todo o espaço disponível no eixo principal (horizontal)*/
+    flex-direction: column;
+    /*Quando definida em "column", os itens são exibidos em coluna organizados na sequência de cima para baixo*/
+    min-height: 100vh;
+    /*é usado para definir a altura mínima de um determinado elemento. Ele impede que o valor usado da propriedade height se torne menor que o valor especificado para min-height.*/
+
+}
+
+img {
+    width: 583px;
+    height: 374px;
+
+    margin: 156px 126px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.sorteio {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /*define a altura de uma caixa de linha e a distância entre as linhas de texto.*/
+    color: #FFF;
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 26px;
+
+
+}
+
+
+input {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 14px;
+    width: 342px;
+    height: 74px;
+    padding-left: 20px;
+    /*distância da letra dentro da caixa*/
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFF;
+    opacity: 0.7;
+
+
+}
+
+
+.input-min {
+    margin-right: 62px;
+    
+}
+
+.numero-sorteado {
+margin-top: 80px;
+
+
+}
+
+
+button {
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    width: 342px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.9;
+
+}
+
+button:active {
+    opacity: 0.8;
+
+}
